@@ -1,0 +1,9 @@
+nome = ("Mariana")
+idade = 29
+Cidade = ("Sao Paulo")
+altura = 1.65
+sexo = ("feminino")
+
+print ("nome" , nome)
+print (f"meu nome é {nome}, eu tenho {idade} em anos e tenho em altura {altura} e meu genero é {sexo}")
+

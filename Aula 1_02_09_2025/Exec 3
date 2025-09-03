@@ -1,0 +1,7 @@
+va = ("Variavel A")
+vb = ("Variavel B")
+
+
+va, vb = vb, va
+
+print (va,vb)
