@@ -4,8 +4,3 @@ raio = 5
 area = pi*raio
 print(f"a area da circunferencia de raio {raio} é {area:.2f}")
 
-
-Celcius = 5/9
-Farein = 50
-Conversao = Farein*(Celcius)
-print (Conversao)
