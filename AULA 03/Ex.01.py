@@ -15,5 +15,9 @@ Matriz_2 = [
 matriz_soma = []
 
 
-for i in range (len(matriz)):
+for i in range (3):
+    for j in range (3):
+        matriz_somaz[i][j] = Matriz_1[i][j] + Matriz_2[i][j]
 
+
+print(f"a soma das matrizes e{matriz_soma}")
