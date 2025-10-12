@@ -1,8 +1,7 @@
 import os
 
-restaurantes = [{"nome" : "praca" , "categoria" : "japonesa" , "ativo":False},
-                {"nome" : "pizza suprema" , "categoria" : "pizza" , "ativo":True},
-                {"nome" : "cantina" , "categoria" : "italiana" , "ativo":False}] 
+restaurantes = [{"titulo" : "totem para zoologico" , "tipo" : "educativo" , "descricao" : "programa para ser utilziado em zoologico", "ativo":True},
+                 {"titulo" : "totem para farmácia" , "tipo" : "comercial" , "descricao" : "programa para ser utilizado em farmacias para orienctacao de produtos", "ativo":True}] 
 def exibir_nome_do_programa():
     nome =("sabor express")
     print(nome)
@@ -53,7 +52,6 @@ def alternar_estado_do_restaurante():
             print(mensagem)
     if not restaurante_encontrado:
         print("o restaurante nao foi encontrado")
-
 def escolher_opcoes():
     try:
         opcao_escolhida = int(input("escolha uma opcao: "))

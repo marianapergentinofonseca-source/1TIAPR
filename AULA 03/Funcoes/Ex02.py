@@ -5,11 +5,14 @@
 
 def numero_primo():
     numero = int(input("digite aqui um numero maior ou igual a 1: "))
-
-    if numero % numero == 0 and numero % 1==0:
-        print(f"o numero {numero} é primo ")
+    if numero <=1:
+        return False
+    for i in range
+        return True
     else:
-        print("o numero nao é primo")
-
-numero_primo()
+        return False
         
+    if numero_primo(numero):
+        print(f"{numero} é primo")
+    else:
+        print(f"{numero}nao é primo")

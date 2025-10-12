@@ -5,11 +5,11 @@
 
 
 frase = input("digite aqui a sua frase: ")
-vogais = "aeiou"
+vogais = "aeiouAEIOU"
 
-def vogais_frase(frase):
+def vogais_frase(texto):
     contador = 0 
-    for letra in frase:
+    for letra in texto:
         if letra in vogais:
             contador += 1
     return contador
